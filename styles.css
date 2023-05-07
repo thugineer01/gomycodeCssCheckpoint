@@ -1,0 +1,44 @@
+body {
+    font-family:'roboto', sans-serif;
+  }
+  nav {
+    color: aquamarine;
+    background-color: rgb(29, 23, 79);
+    overflow: auto;
+    color: #712636;
+    display:inline;
+    justify-content: space-between;
+    padding: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add some styles to the sections */
+  section {
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+
+  /* Add some styles to the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
